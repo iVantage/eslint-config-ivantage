@@ -24,7 +24,6 @@ module.exports = {
     'no-unsafe-finally': ['error'],
     'no-unsafe-negation': ['error'],
     'use-isnan': ['error'],
-    'valid-jsdoc': ['error'],
     'valid-typeof': ['error'],
     'consistent-return': ['error'],
     'curly': ['error'],
@@ -96,11 +95,6 @@ module.exports = {
     'max-len': ['error', 80],
     'no-mixed-spaces-and-tabs': ['error'],
     'no-whitespace-before-property': ['error'],
-    'require-jsdoc': ['error', {
-      'require': {
-        'ClassDeclaration': true
-      }
-    }],
     'semi-spacing': ['error', {
       'before': false,
       'after': true
