@@ -52,7 +52,9 @@ module.exports = {
     'no-throw-literal': ['error'],
     'no-unused-labels': ['error'],
     'wrap-iife': ['error'],
-    'yoda': ['error'],
+    'yoda': ['error', 'always', {
+      'onlyEquality': true
+    }],
     'no-delete-var': ['error'],
     'no-undef': ['error'],
     'no-unused-vars': ['error'],
